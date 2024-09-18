@@ -1,8 +1,8 @@
 #Задача "Все ли равны?":
 
-first=123
-second=124
-third=125
+first = input('Введите число: ')
+second = input('Введите число: ')
+third = input('Введите число: ')
 
 if  first == second or first == third or second == third:
     print(2)
